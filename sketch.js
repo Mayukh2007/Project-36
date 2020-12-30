@@ -37,6 +37,9 @@ function setup() {
 
 function draw() {  
   background("green");
+  if (foodS<0){
+  foodS=0;
+  }
 
   foodObject.display();
 
